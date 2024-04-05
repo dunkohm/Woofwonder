@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -11,75 +11,95 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(139, 69, 19, 0.9); /* Background color */
-    z-index: 9999; /* Ensure the preloader appears above other content */
-  }
-  
-  /* Styles for the preloader */
-  .preloader {
+    background-color: rgba(139, 69, 19, 0.9);
+    /* Background color */
+    z-index: 9999;
+    /* Ensure the preloader appears above other content */
+}
+
+/* Styles for the preloader */
+.preloader {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  /* Animation for color change */
-  @keyframes colorChange {
-    0%, 100% {
-      fill: white; /* Initial and Final color */
+}
+
+/* Animation for color change */
+@keyframes colorChange {
+
+    0%,
+    100% {
+        fill: white;
+        /* Initial and Final color */
     }
+
     50% {
-      fill: #FFD700; /* Intermediate color */
+        fill: #FFD700;
+        /* Intermediate color */
     }
-  }
-  
-  /* Apply animation to SVG paths */
-  .preloader #main {
-    animation: colorChange 1.5s ease-in-out infinite; /* Adjust duration and timing as needed */
-  }
-  
-  .preloader #left {
-    animation: colorChange 1.5s ease-in-out infinite 0.3s; /* Delayed start */
-  }
-  
-  .preloader #right {
-    animation: colorChange 1.5s ease-in-out infinite 0.6s; /* Delayed start */
-  }
-  
-  .preloader #left-middle {
-    animation: colorChange 1.5s ease-in-out infinite 0.9s; /* Delayed start */
-  }
-  
-  .preloader #right-middle {
-    animation: colorChange 1.5s ease-in-out infinite 1.2s; /* Delayed start */
-  }
-.bg{
+}
+
+/* Apply animation to SVG paths */
+.preloader #main {
+    animation: colorChange 1.5s ease-in-out infinite;
+    /* Adjust duration and timing as needed */
+}
+
+.preloader #left {
+    animation: colorChange 1.5s ease-in-out infinite 0.3s;
+    /* Delayed start */
+}
+
+.preloader #right {
+    animation: colorChange 1.5s ease-in-out infinite 0.6s;
+    /* Delayed start */
+}
+
+.preloader #left-middle {
+    animation: colorChange 1.5s ease-in-out infinite 0.9s;
+    /* Delayed start */
+}
+
+.preloader #right-middle {
+    animation: colorChange 1.5s ease-in-out infinite 1.2s;
+    /* Delayed start */
+}
+
+.bg {
     background-color: #ffb703;
     height: 10px;
 }
-.nav-link{
-  
+
+.nav-link {
+
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     transition: .3s ease-in-out;
 }
-a.nav-link.active{
+
+a.nav-link.active {
     color: #ffb703;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #ffb703;
 }
-.navbar-text{
+
+.navbar-text {
     color: black;
-    font-family: "Open Sans", sans-serif; 
+    font-family: "Open Sans", sans-serif;
 }
-.hero-header{
+
+.hero-header {
     color: #ffb703;
 }
+
 .container {
     overflow-x: hidden;
 }
-.bigimage{
+
+.bigimage {
     width: 100vw;
     height: 80vh;
     position: relative;
@@ -87,14 +107,16 @@ a.nav-link.active{
     background-size: cover;
     overflow-x: hidden;
 }
-.bigimage h1{
+
+.bigimage h1 {
     font-size: 30px;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-style: italic;
-   
+
 }
-.expbtn{
+
+.expbtn {
     padding: 10px 10px;
     background-color: #ff9100;
     border-radius: 20px;
@@ -105,7 +127,7 @@ a.nav-link.active{
     border: 5px solid #fff;
 }
 
-.overlay{
+.overlay {
     width: 100%;
     height: 100%;
     font-size: 26px;
@@ -115,33 +137,40 @@ a.nav-link.active{
     flex-direction: column;
     align-items: center;
 }
-.heading2{
+
+.heading2 {
     font-family: "Open Sans", sans-serif;
-    color: #ff9100; 
+    color: #ff9100;
     font-size: 26px;
 }
-.card-title{
+
+.card-title {
     text-transform: uppercase;
     color: #ff9100;
     font-family: "Open Sans", sans-serif;
 }
-.card-img-top{
+
+.card-img-top {
     width: 100%;
     height: 200px;
     object-fit: contain;
 }
-.list-group{
+
+.list-group {
     font-family: "Open Sans", sans-serif;
 }
-.btn{
+
+.btn {
     font-family: "Open Sans", sans-serif;
 }
-.abt{
+
+.abt {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
 }
-.abt-img{
+
+.abt-img {
     border-radius: 50%;
     width: 290px;
     height: 290px;
@@ -152,12 +181,14 @@ a.nav-link.active{
     background-position: center;
     object-fit: cover;
 }
-.abt-text{
-    font-family: "Open Sans", sans-serif ;
+
+.abt-text {
+    font-family: "Open Sans", sans-serif;
     font-size: 25px;
     /* margin-right: 150px; */
 }
-.abt-img2{
+
+.abt-img2 {
     border-radius: 50%;
     width: 290px;
     height: 290px;
@@ -167,27 +198,31 @@ a.nav-link.active{
     background-position: center;
     object-fit: cover;
 }
-.abt-text2{
-    font-family: "Open Sans", sans-serif ;
+
+.abt-text2 {
+    font-family: "Open Sans", sans-serif;
     font-size: 25px;
-   
+
 }
-.abt-img3{
+
+.abt-img3 {
     border-radius: 50%;
     width: 290px;
     height: 290px;
     border: 10px solid #4682B4;
     float: right;
-  
+
     margin-top: 30px;
     background-position: center;
     object-fit: cover;
 }
-.abt-text3{
-    font-family:"Open Sans", sans-serif ;
+
+.abt-text3 {
+    font-family: "Open Sans", sans-serif;
     font-size: 25px;
-   
+
 }
-header{
+
+header {
     color: #4682B4;
 }
